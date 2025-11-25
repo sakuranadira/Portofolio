@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio - Sakura</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <div class="logo">Sakura Nadira</div>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#home" data-section="home">Home</a>
+        <a href="#about" data-section="about">About</a>
+        <a href="#projects" data-section="projects">Projects</a>
+        <a href="#skills" data-section="skills">Certificate</a>
+      </div>
+
+      <button class="menu-btn" id="menu-btn" aria-label="Open menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <main id="main-content">
+      <!-- HOME -->
+      <section id="home" class="content-section">
+        <div class="hologram-container">
+          <div class="hero-content">
+            <h1>Hi, I'm Sakura</h1>
+            <h2>I'm a <span class="typewriter-text"></span></h2>
+            <p>I am a 5th-semester Informatics student with a strong interest in Web Development, UI/UX Design, and Game Development, with experience across various IT fields and a focus on creating clear, efficient, and engaging digital solutions.</p>
+
+            <div class="controls-row">
+              <a href="CV.pdf" download class="cv-btn">
+                <i class="fas fa-download"></i> Download CV
+              </a>
+              
+              <div class="social-links">
+                <a href="https://github.com/sakuraNadira" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sakura-nadira-69a22628a" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:sakuranadira5@gmail.com" class="email-link">
+                  <i class="far fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-image">
+            <div class="profile-circle">
+              <img src="sakura.jpg" alt="Profile">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="content-section">
+        <div class="hologram-container about-flex">
+
+          <div class="about-left">
+            <h2>About Me</h2>
+            <p>
+              I am an Informatics Engineering student at Universitas Multimedia Nusantara, currently living in Kabupaten Tangerang, Banten. 
+              I have strong interest and experience in Web Development, UI/UX Design, and Game Development, supported by hands-on work in 
+              tech-based sales, product onboarding, and customer support.
+            </p>
+
+            <p>
+              My professional experience includes working as a Freelancer Sales & Trainer at Genius Growth AI, where I handled product marketing, 
+              guided users through payment flows, ensured successful product activation, and trained new sales partners. 
+              Previously, I also worked as a Direct Sales representative at First Media, promoting internet services, assisting installation, 
+              and supporting customers with early-stage troubleshooting.
+            </p>
+
+            <p>
+              I was also involved in multiple organizational programs such as Public Relations (Perkenalan Prodi Informatika), 
+              Liaison Officer (Career Preparation 2024), and Security Division (UMN Tech Festival), strengthening my communication and coordination skills.
+            </p>
+
+            <h3>Contact Information</h3>
+            <p>
+              📍 Kabupaten Tangerang, Banten <br>
+              📞 082311019109 <br>
+              ✉️ <a href="mailto:sakuranadira5@gmail.com" class="email-link">sakuranadira5@gmail.com</a>
+            </p>
+
+        </div>
+      </section>
+
+
+      <!-- PROJECTS -->
+      <section id="projects" class="content-section">
+        <div class="hologram-container">
+          <div class="project-grid">
+
+            <div class="project-card">
+              <video class="card-video" autoplay muted loop playsinline>
+                <source src="game.mp4" type="video/mp4">
+              </video>
+
+              <div class="project-content">
+                <h3>Boo!</h3>
+                <p>A 3D horror-themed motel escape game where players run through eerie hallways, avoid obstacles, and survive while being chased by a cute but terrifying ghost named Boo. Your goal is to reach the elevator before time runs out to clear each level and stay alive.</p>
+                <div class="tech-stack">
+                  <span>Unity</span>
+                  <span>C#</span>
+                  <span>3D Modeling</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card slider-project">
+              <div class="slide-container">
+                  <img src="Find You - HCI 1.png" class="slide active">
+                  <img src="Find You - HCI 2.png" class="slide">
+                  <img src="Find You - HCI 3.png" class="slide">
+              </div>
+
+              <div class="project-content">
+                  <h3>Find You - HCI</h3>
+                  <p>Find You is a location-based social app designed to help people discover others nearby, join meaningful communities, explore local events, and build authentic real-life connections. With secure identity verification, QR-based discovery, and a review system that encourages safe and trustworthy interactions, the app creates a reliable space for users to express who they truly are and connect both personally and professionally.</p>
+                  <div class="tech-stack">
+                    <span>Figma</span>
+                    <span>UI/UX Design</span>
+                    <span>Prototyping</span>
+                </div>
+                  <a href="https://www.figma.com/proto/sUCWA5WvEsj2XHKTptaPE3/Find-You?node-id=420-703&p=f&t=3NQUcReHIm5k2HRr-1&scaling=scale-down&content-scaling=fixed&page-id=115%3A20&starting-point-node-id=420%3A530" target="_blank" class="project-btn">
+                      <i class="fas fa-external-link-alt"></i> Live Demo
+                  </a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <video class="card-video" autoplay muted loop playsinline>
+                <source src="PTI.mp4" type="video/mp4">
+              </video>
+
+              <div class="project-content">
+                <h3>Kuliner Bali</h3>
+                <p>This Bali culinary website serves as a guide for travelers and food enthusiasts by recommending the island’s best dishes and the restaurants where they can be found, while also providing step-by-step recipes for those who want to recreate authentic Balinese flavors at home. Through curated suggestions, cultural insights, and easy-to-follow cooking instructions, the site helps users experience Bali’s rich food heritage both during their visit and in their own kitchen.</p>
+                <div class="tech-stack">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>Responsive Design</span>
+                </div>
+                <a href="https://kulinerbali.vercel.app/" target="_blank" class="project-btn">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+
+              </div>
+            </div>
+
+            <div class="project-card slider-project">
+              <div class="slide-container">
+                  <img src="1.png" class="slide active">
+                  <img src="2.png" class="slide">
+                  <img src="3.png" class="slide">
+                  <img src="4.png" class="slide">
+                  <img src="5.png" class="slide">
+                  <img src="6.png" class="slide">
+                  <img src="7.png" class="slide">
+                  <img src="8.png" class="slide">
+              </div>
+
+              <div class="project-content">
+                  <h3>Birthday Reminder</h3>
+                  <p>Birthday Reminder is an Android mobile application designed to help communities or organizations manage and remember their members’ birthdays. The app provides automatic reminders, member management, and internal communication features that make sending birthday wishes easy and timely.</p>
+                  <div class="tech-stack">
+                    <span>Android Studio</span>
+                    <span>Kotlin / Java</span>
+                    <span>XML UI</span>
+                  </div>
+                 
+              </div>
+            </div>
+
+            <div class="project-card slider-project">
+              <div class="slide-container">
+                  <img src="Find You - Techno 1.png" class="slide active">
+                  <img src="Find You - Techno 2.png" class="slide">
+                  <img src="Find You - Techno 3.png" class="slide">
+              </div>
+
+              <div class="project-content">
+                  <h3>Find You - Techno</h3>
+                  <p>Find You is a personal-branding app designed to help individuals, communities, and companies build more authentic and meaningful connections. Unlike conventional professional platforms, this app provides a space for users to showcase who they really are and to form relationships that are relevant both professionally and personally</p>
+                  <div class="tech-stack">
+                    <span>Figma</span>
+                    <span>UI/UX Design</span>
+                    <span>Prototyping</span>
+                  </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATES -->
+      <section id="skills" class="content-section">
+        <div class="hologram-container">
+          <div class="certificate-grid">
+            <div class="certificate-card"><img src="Sertifikat.png" alt="Certificate 1" class="cert-img"></div>
+            <div class="certificate-card"><img src="Sertifikat1.png" alt="Certificate 2" class="cert-img"></div>
+            <div class="certificate-card"><img src="Sertifikat2.png" alt="Certificate 3" class="cert-img"></div>
+            <div class="certificate-card"><img src="Sertifikat3.png" alt="Certificate 4" class="cert-img"></div>
+            <div class="certificate-card"><img src="Sertifikat4.png" alt="Certificate 5" class="cert-img"></div>
+            <div class="certificate-card"><img src="Sertifikat5.png" alt="Certificate 6" class="cert-img"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+   <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-sparkle">✨</div>
+        <p class="footer-text">Made with <span class="night">🌙</span> and lots of <span class="cookies">🍪</span> by Sakura</p>
+        <div class="footer-wave">
+          <span>~</span><span>~</span><span>~</span><span>~</span><span>~</span>
+        </div>
+        <p class="footer-copyright">© 2025 Sakura Nadira • Good Night Everyone</p>
+      </div>
+    </footer>
+
+  <!-- POPUP ZOOM -->
+  <div id="image-popup" class="popup" aria-hidden="true">
+    <span class="close-popup" role="button" aria-label="Close">&times;</span>
+    <img class="popup-content" id="popup-img" alt="certificate preview">
+  </div>
+
+  <script src="script.js"></script>
+
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    document.querySelectorAll('.slider-project').forEach(project => {
+        let slides = project.querySelectorAll('.slide');
+        let index = 0;
+
+        setInterval(() => {
+            slides[index].classList.remove('active');
+            index = (index + 1) % slides.length;
+            slides[index].classList.add('active');
+        }, 3000);
+    });
+
+});
+</script>
+
+
+</body>
+</html>
